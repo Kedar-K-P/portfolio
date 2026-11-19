@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kedar Patil | Data Science and Machine Learning</title>
+<meta name="description" content="Portfolio of Kedar Patil, B.Tech Computer Science student at IIST Indore working in machine learning, NLP and model deployment.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#home">Kedar Patil</a>
+  <nav aria-label="Main">
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="home">
+
+<section class="hero wrap">
+  <div class="hero-text">
+    <h1>Kedar Patil</h1>
+    <p class="role">Data science and machine learning student</p>
+    <p class="lead">I train models, explain why they make their predictions, and deploy them as apps people can open and use.</p>
+    <p class="actions">
+      <a class="btn primary" href="Kedar_Patil_Resume.pdf" download>Download resume</a>
+      <a class="btn" href="https://github.com/Kedar-K-P">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/kedar-patil-55a372209">LinkedIn</a>
+    </p>
+  </div>
+
+  <figure class="panel" aria-label="Illustrative example of a SHAP style explanation">
+    <figcaption>Why this customer might leave</figcaption>
+    <ul class="bars">
+      <li><span>Month-to-month contract</span><i class="up" style="width:86%"></i></li>
+      <li><span>Support tickets</span><i class="up" style="width:58%"></i></li>
+      <li><span>Monthly spend</span><i class="up" style="width:30%"></i></li>
+      <li><span>Years as customer</span><i class="down" style="width:64%"></i></li>
+      <li><span>Auto-pay enabled</span><i class="down" style="width:36%"></i></li>
+    </ul>
+    <p class="note"><b class="k up"></b> raises churn risk <b class="k down"></b> lowers it. Illustrative example of the per-prediction explanations in AiChurnGuard.</p>
+  </figure>
+</section>
+
+<section class="wrap block" id="about">
+  <h2>About</h2>
+  <p>I am a third-year B.Tech Computer Science student at Indore Institute of Science and Technology (IIST), affiliated to RGPV. I completed a data science internship at Persevex in 2026 and have two machine learning projects running live online. I am looking for an entry-level data science or ML role, or an internship, where I can work on real problems with Python.</p>
+</section>
+
+<section class="wrap block" id="projects">
+  <h2>Projects</h2>
+
+  <article class="project">
+    <div class="meta">
+      <h3>AiChurnGuard</h3>
+      <p>Customer churn prediction</p>
+    </div>
+    <div class="body">
+      <p>An end-to-end churn prediction system for Indian SaaS customers. It uses XGBoost for predictions and SHAP to show the top drivers behind each one. EDA on a real-world dataset guided the feature engineering. The backend runs on Render and the frontend on Streamlit Community Cloud.</p>
+      <p class="stack">Python, XGBoost, SHAP, FastAPI, Streamlit, pandas, scikit-learn</p>
+      <p class="links"><a href="https://aichurnguard-hv3qib4tevshjvdnny8rz8.streamlit.app">Live demo</a> <a href="https://github.com/Kedar-K-P/AiChurnGuard">Source on GitHub</a></p>
+    </div>
+  </article>
+
+  <article class="project">
+    <div class="meta">
+      <h3>Resume Analysis and Job Matching</h3>
+      <p>Apr to May 2026</p>
+    </div>
+    <div class="body">
+      <p>Reads PDF resumes and pulls out skills, experience and education with a custom spaCy NER model trained on labelled data. A TF-IDF similarity module then gives each resume a ranked match percentage against a job description. A Streamlit dashboard lets recruiters upload and compare resumes without writing code.</p>
+      <p class="stack">Python, spaCy, scikit-learn, TF-IDF, Streamlit, pandas</p>
+      <p class="links"><a href="https://resume-analyzer-hzb2sjt7gb9fya9ugdj6px.streamlit.app">Live demo</a></p>
+    </div>
+  </article>
+
+  <article class="project">
+    <div class="meta">
+      <h3>LifeOS</h3>
+      <p>In progress, 2026</p>
+    </div>
+    <div class="body">
+      <p>My solo minor project: a web app where users upload documents and the system applies OCR, classification and AI extraction to pull out key information. Low-confidence results are flagged for the user to confirm before they are saved. Semantic search and reminders work on the confirmed data.</p>
+      <p class="stack">Python, FastAPI, OCR, LLM-based extraction, semantic search</p>
+    </div>
+  </article>
+</section>
+
+<section class="wrap block" id="experience">
+  <h2>Experience</h2>
+  <ol class="timeline">
+    <li>
+      <h3>Data Science Intern, Persevex</h3>
+      <p class="when">10 Apr 2026 to 20 May 2026, Bengaluru (remote)</p>
+      <ul>
+        <li>Developed a resume analysis system in Python using spaCy NER and rule-based extraction to turn unstructured PDF resumes into structured candidate data.</li>
+        <li>Implemented automated scoring and job-description matching, reducing the manual effort needed to screen resumes.</li>
+        <li>Presented the architecture and findings to the program team and worked with coordinators across sprint cycles to meet every milestone.</li>
+      </ul>
+    </li>
+  </ol>
+</section>
+
+<section class="wrap block" id="skills">
+  <h2>Skills</h2>
+  <dl class="skills">
+    <dt>Language</dt><dd>Python</dd>
+    <dt>ML and data science</dt><dd>scikit-learn, XGBoost, SHAP, pandas, NumPy, Matplotlib, Seaborn</dd>
+    <dt>NLP</dt><dd>spaCy (custom NER), TF-IDF, rule-based extraction pipelines</dd>
+    <dt>Deployment</dt><dd>FastAPI, Streamlit, Render, Streamlit Community Cloud</dd>
+    <dt>Tools</dt><dd>Git and GitHub, Jupyter Notebook, Power BI (basic)</dd>
+    <dt>Concepts</dt><dd>Exploratory data analysis, feature engineering, model explainability</dd>
+    <dt>Working with people</dt><dd>Communication, presentation, team collaboration</dd>
+    <dt>Spoken languages</dt><dd>English (professional), Hindi (native), Marathi (native)</dd>
+  </dl>
+</section>
+
+<section class="wrap block" id="education">
+  <h2>Education</h2>
+  <ul class="edu">
+    <li><b>B.Tech, Computer Science Engineering</b><span>2024 to 2028</span><em>IIST, Indore (RGPV). CGPA 7.28 in year 1 and 7.54 in year 2.</em></li>
+    <li><b>Class XII, Arpana Convent School</b><span>2024</span><em>MP Board. Aggregate 77.2%.</em></li>
+    <li><b>Class X, Podar International School</b><span>2022</span><em>CBSE. Aggregate 84.0%.</em></li>
+  </ul>
+  <h3 class="sub">Certification and achievements</h3>
+  <ul class="plain">
+    <li>Certificate of Internship Completion in Data Science, Persevex, May 2026.</li>
+    <li>Cleared the written examinations of the National Defence Academy (NDA) and the Merchant Navy entrance test.</li>
+  </ul>
+</section>
+
+<section class="wrap block contact" id="contact">
+  <h2>Contact</h2>
+  <p>Open to internships and entry-level data science and ML roles. The quickest way to reach me is email, and you can also find me on LinkedIn.</p>
+  <p class="actions">
+    <a class="btn primary" href="mailto:patilkedar2311@gmail.com">patilkedar2311@gmail.com</a>
+    <a class="btn" href="https://github.com/Kedar-K-P">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/kedar-patil-55a372209">LinkedIn</a>
+  </p>
+</section>
+
+</main>
+
+<footer class="wrap foot">&copy; 2026 Kedar Patil. Indore, Madhya Pradesh.</footer>
+
+</body>
+</html>
